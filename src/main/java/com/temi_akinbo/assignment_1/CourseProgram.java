@@ -5,10 +5,17 @@
  */
 package com.temi_akinbo.assignment_1;
 
+import java.util.ArrayList;
+import org.joda.time.DateTime;
+
 /**
  *
  * @author Temi
  */
 public class CourseProgram {
     
+    private ArrayList<Module> modules;
+    private ArrayList<Student> students;
+    private DateTime startDate;
+    private DateTime endDate;
 }

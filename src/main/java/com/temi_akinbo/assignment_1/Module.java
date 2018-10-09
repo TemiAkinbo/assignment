@@ -15,6 +15,6 @@ class Module {
     private String moduleName;
     private String id;
     private ArrayList<Student> students;
-    private ArrayList<String> courses;
+    private ArrayList<String> assCourses;
     
 }
