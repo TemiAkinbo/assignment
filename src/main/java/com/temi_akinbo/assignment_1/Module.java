@@ -14,7 +14,12 @@ import java.util.ArrayList;
 class Module {
     private String moduleName;
     private String id;
-    private ArrayList<Student> students;
-    private ArrayList<String> assCourses;
+    private ArrayList<Student> students = new ArrayList();
+    private ArrayList<CourseProgram> assCourses = new ArrayList();
+    
+    public Module (String modName, String id){
+        this.moduleName = modName;
+        this.id = id;
+    }
     
 }

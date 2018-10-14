@@ -13,9 +13,13 @@ import org.joda.time.DateTime;
  * @author Temi
  */
 public class CourseProgram {
-    
-    private ArrayList<Module> modules;
-    private ArrayList<Student> students;
+    private String courseName;
+    private ArrayList<Module> modules = new ArrayList();
+    private ArrayList<Student> students = new ArrayList();
     private DateTime startDate;
     private DateTime endDate;
+    
+    public CourseProgram(String courseName){
+        this.courseName = courseName;
+    }
 }
