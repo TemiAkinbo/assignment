@@ -21,7 +21,7 @@ public class Student {
     private int id;
     private String username;
     private ArrayList<String> courses;
-    private ArrayList<Module> regModules;
+    private ArrayList<Modules> regModules;
     
     public Student(String name,int age){
         this.name = name;
@@ -74,11 +74,11 @@ public class Student {
         this.courses = courses;
     }
 
-    public ArrayList<Module> getRegModules() {
+    public ArrayList<Modules> getRegModules() {
         return regModules;
     }
 
-    public void setRegModules(ArrayList<Module> regModules) {
+    public void setRegModules(ArrayList<Modules> regModules) {
         this.regModules = regModules;
     }
 }

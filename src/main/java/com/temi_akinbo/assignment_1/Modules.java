@@ -11,13 +11,13 @@ import java.util.ArrayList;
  *
  * @author Temi
  */
-class Module {
+class Modules {
     private String moduleName;
     private String id;
     private ArrayList<Student> students = new ArrayList();
     private ArrayList<CourseProgram> assCourses = new ArrayList();
     
-    public Module (String modName, String id){
+    public Modules (String modName, String id){
         this.moduleName = modName;
         this.id = id;
     }

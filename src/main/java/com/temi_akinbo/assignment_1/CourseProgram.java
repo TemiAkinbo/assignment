@@ -14,7 +14,7 @@ import org.joda.time.DateTime;
  */
 public class CourseProgram {
     private String courseName;
-    private ArrayList<Module> modules = new ArrayList();
+    private ArrayList<Modules> modules = new ArrayList();
     private ArrayList<Student> students = new ArrayList();
     private DateTime startDate;
     private DateTime endDate;
