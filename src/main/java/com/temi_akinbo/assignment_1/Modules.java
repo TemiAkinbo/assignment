@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Temi
  */
-class Modules {
+public class Modules {
     private String moduleName;
     private String id;
     private ArrayList<Student> students = new ArrayList();
