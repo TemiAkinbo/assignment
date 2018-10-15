@@ -20,7 +20,7 @@ public class Student {
     private DateTime dob;
     private int id;
     private String username;
-    private ArrayList<String> courses = new ArrayList();
+    private ArrayList<CourseProgram> courses = new ArrayList();
     private ArrayList<Modules> regModules = new ArrayList();
     
     public Student(String name,int age){
@@ -66,11 +66,11 @@ public class Student {
     }
 
 
-    public ArrayList<String> getCourses() {
+    public ArrayList<CourseProgram> getCourses() {
         return courses;
     }
 
-    public void setCourses(ArrayList<String> courses) {
+    public void setCourses(ArrayList<CourseProgram> courses) {
         this.courses = courses;
     }
 
