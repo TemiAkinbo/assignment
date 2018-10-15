@@ -20,8 +20,8 @@ public class Student {
     private DateTime dob;
     private int id;
     private String username;
-    private ArrayList<String> courses;
-    private ArrayList<Modules> regModules;
+    private ArrayList<String> courses = new ArrayList();
+    private ArrayList<Modules> regModules = new ArrayList();
     
     public Student(String name,int age){
         this.name = name;

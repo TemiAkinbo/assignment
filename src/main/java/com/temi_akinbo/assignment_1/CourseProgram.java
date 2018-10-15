@@ -22,4 +22,16 @@ public class CourseProgram {
     public CourseProgram(String courseName){
         this.courseName = courseName;
     }
+    
+    public String getCourseName(){
+        return this.courseName;
+    }
+    
+    public ArrayList<Modules> getModules(){
+        return this.modules;
+    }
+    
+    public ArrayList<Student> getStudents(){
+        return this.students;
+    }
 }

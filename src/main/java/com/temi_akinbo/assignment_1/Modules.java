@@ -22,4 +22,21 @@ public class Modules {
         this.id = id;
     }
     
+    public String getModuleName(){
+        return this.moduleName;
+    }
+    
+    public String getID(){
+        return this.id;
+    }
+    
+    public ArrayList<Student> getStudents(){
+    
+        return this.students;
+    }
+    
+    public ArrayList<CourseProgram> getAssignesCourses(){
+        return this.assCourses;
+    }
+    
 }
